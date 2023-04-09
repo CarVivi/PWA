@@ -1,0 +1,18 @@
+nombres de archivo y codificacion de secciones (tentativa)
+
+infantiles B - FEM - 1
+infantiles B - MAS - 2
+infantiles A - FEM - 3
+infantiles B - MAS - 4
+Cadete - FEM - 5
+Cadete - MAS - 6
+juveniles - FEM - 7
+juveniles - MAS - 8
+senior 1 - FEM - 9
+senior 1 - MAS - 10
+senior 2 - FEM - 11
+senior 2 - MAS - 12
+master 1 - FEM - 13
+master 1 - MAS - 14
+master 2 - FEM - 15
+master 2 - MAS - 16
