@@ -100,7 +100,7 @@ function act45(nimage) {
     // levanta en ncateg de un parafo oculto el codigo de la categoria activa
     var ncateg=document.getElementById('col4ncateg').innerHTML;
     // oculta todos los elementos 
-    var contenido='<table class="table"><thead><tr>';
+    var contenido='<table class="table table-sm"><thead><tr>';
     contenido+="<th scope='col'>N°</th><th scope='col'>Nombre</th><th scope='col'>Puntos</th>";
     contenido+='</tr></thead><tbody>';
     // levanta en un array dentro de la categoria la seccion    
@@ -110,7 +110,7 @@ function act45(nimage) {
     for (var i = 0; i < atabla.length; i++) {
         contenido+='<tr';
         if ( Number.isInteger(i/2) ) {
-            contenido+=' class="table-light"';
+            contenido+=' class="table"';
         }
         contenido+='><th scope="row">'+parseInt(i+1)+'</th>';
         contenido+='<td>'+atabla[i][0]+'</td>';
@@ -122,9 +122,9 @@ function act45(nimage) {
     document.getElementById('tabla').innerHTML=contenido;
     // seccion 7 arma parafo con datos del ganador
     var aganador=acol7[ncateg-1][nseccion-1]
-    contenido='<p class="fw-bold">'+atabla[0][0]+'</p>';
-    contenido+='<p class="">'+aganador[0]+'<p>';
-    contenido+='<p class="">'+aganador[1]+'<p>';
+    contenido='<h5 class="">'+atabla[0][0]+'</h5>';
+    contenido+='<p class="card-text">'+aganador[0]+'</p>';
+    contenido+='<p>Frase celebre: <em>"'+aganador[1]+'"</p>';
     document.getElementById('parrafo').innerHTML=contenido;
     return;
  }

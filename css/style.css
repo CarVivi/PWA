@@ -34,9 +34,25 @@
 
 
 .container-fluid{
-  background-image: linear-gradient(180deg, #400207, #F21D2F,#040240  );
+  background-image: linear-gradient(180deg,#222059,#400207,#222059  );
 }
 
 *{
   color: white;
 }
+h3,h2,h4, p, button, a,section{
+  font-family: 'Blinker', sans-serif;
+}
+
+
+
+@media (max-width: 991px) {
+  
+  .card-text:last-child {
+     
+      font-size: 15px;
+      text-align: center;
+  }
+}
+
+
